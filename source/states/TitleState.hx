@@ -555,8 +555,7 @@ class TitleState extends MusicBeatState
 					#end
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 40);
-					addMoreText('Riveren', 40);
+					addMoreText('Eros The Goddamn', 40);
 					#else
 					addMoreText('present');
 					#end
@@ -564,12 +563,12 @@ class TitleState extends MusicBeatState
 					deleteCoolText();
 				case 6:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Not associated', 'with'], -40);
+					createCoolText(['A Engine', 'By'], -40);
 					#else
 					createCoolText(['In association', 'with'], -40);
 					#end
 				case 8:
-					addMoreText('newgrounds', -40);
+					addMoreText('ErosTheGoddamn', -40);
 					ngSpr.visible = true;
 				case 9:
 					deleteCoolText();
